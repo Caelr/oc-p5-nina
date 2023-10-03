@@ -135,23 +135,33 @@
       </button>
     </div>
   </section>
-  <div id="about">
-    <div class="picture left">
-      <img src="./assets/images/nina.png">
-    </div>
+
+
+  <section id="about">
+    <picture class="picture left ">
+      <source type="image/webp" srcset="
+          ./assets/images/nina-320.webp 320w,
+          ./assets/images/nina-650.webp 650w,
+          ./assets/images/nina-1180.webp 1180w,
+          ./assets/images/nina.webp 1920w,
+          ">
+      <img src="./assets/images/nina.webp" width="400" height="398.9" loading="lazy" alt="Photo de Nina Carducci"
+        class="about__image">
+    </picture>
     <div id="about-me">
-      <h3 class="about-me__title">A propos de moi</h3>
-      <h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné.
+      <h2 class="about-me__title">A propos de moi</h2>
+      <p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné.
         Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me
-        fait vibrer.</h6>
-      <p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer
+        fait vibrer.</p>
+      <p class="about-me__description">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer
         au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager
         au plus grand nombre.
         C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
         technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse
         et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
     </div>
-  </div>
+  </section>
+
   <div id="gallery">
     <h3 class="title">Portfolio</h3>
     <div class="container py-3">
