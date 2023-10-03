@@ -162,41 +162,96 @@
     </div>
   </section>
 
-  <div id="gallery">
-    <h3 class="title">Portfolio</h3>
+  <section id="gallery">
+    <h2 class="title">Portfolio</h2>
     <div class="container py-3">
-      <div class="gallery" style="display: none">
-        <img data-gallery-tag="Concert" class="gallery-item"
-          src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" />
-        <img data-gallery-tag="Entreprises" class="gallery-item"
-          src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" />
-        <img data-gallery-tag="Entreprises" class="gallery-item"
-          src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" />
-        <img data-gallery-tag="Mariages" class="gallery-item"
-          src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" />
-        <img data-gallery-tag="Portrait" class="gallery-item"
-          src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" />
-        <img data-gallery-tag="Mariages" class="gallery-item"
-          src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" />
-        <img data-gallery-tag="Portrait" class="gallery-item"
-          src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" />
-        <img data-gallery-tag="Concert" class="gallery-item"
-          src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" />
-        <img data-gallery-tag="Entreprises" class="gallery-item"
-          src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" />
+      <div class="gallery" style="display: none;">
+        <picture data-gallery-tag="Concert" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-320.webp 320w,
+                  ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-650.webp 650w,
+
+                  ">
+          <img width="424" height="424" loading="lazy" alt="Image d'un concert"
+            src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Entreprises" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-320.webp 320w,
+                        ./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-650.webp 650w,
+                        ">
+          <img width="424" height="424" loading="lazy" alt="Image d'un homme en costume"
+            src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Entreprises" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-320.webp 320w,
+                          ./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-650.webp 650w,
+
+                          ">
+          <img width="424" height="424" loading="lazy" alt="Image de 2 femmes au bureau"
+            src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Mariages" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-320.webp 320w,
+                  ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-650.webp 650w,
+
+                  ">
+          <img width="424" height="424" loading="lazy" alt="Image de 2 personnes qui se tendent les mains"
+            src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Portrait" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-320.webp 320w,
+                  ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-650.webp 650w,
+
+                  ">
+          <img width="424" height="424" loading="lazy" alt="..."
+            src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Mariages" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-320.webp 320w,
+                  ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-650.webp 650w,
+
+                  ">
+          <img width="424" height="424" loading="lazy" alt="Image d'un couple marié"
+            src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Portrait" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-320.webp 320w,
+                  ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-650.webp 650w,
+
+                  ">
+          <img width="424" height="424" loading="lazy" alt="image de nino van"
+            src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp">
+        </picture>
+
+        <picture data-gallery-tag="Concert" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-320.webp 320w,
+                  ./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-650.webp 650w,
+
+                  ">
+          <img width="424" height="424" loading="lazy" alt="Image d'un chanteur sur scene"
+            src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp">
+        </picture>
+        <picture data-gallery-tag="Entreprises" class="gallery-item">
+          <source type="image/webp" srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-320.webp 320w,
+                  ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-650.webp 650w,
+                  ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-1180.webp 1180w,
+                  ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 1920w">
+          <img width="424" height="424" loading="lazy" alt="Image d'une femme qui rit"
+            src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg">
+        </picture>
       </div>
     </div>
     <div class="quote">
       <figure>
         <blockquote>
-          <h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est
+          <p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est
             traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en
-            photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+            photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
     </div>
-  </div>
+  </section>
+
   <div id="services">
     <h3 class="title">Mes services</h3>
     <div class="container">
